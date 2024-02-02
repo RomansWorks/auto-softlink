@@ -4,6 +4,10 @@
 ![PyPI version](https://img.shields.io/pypi/v/auto-softlink)
 ![Python version](https://img.shields.io/badge/python-3.10-blue.svg)
 
+# NOTE
+
+This is work in progress, and is not yet functional or tested. 
+If you wish to help develop it, please do not test it outside of a sandbox environment, since it has the potential to delete files and create softlinks.
 
 # auto-softlink
 A tool to automatically softlink multiple files to different folders on the filesystem. Especially useful for ML model weights.

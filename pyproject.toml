@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "auto-softlink"
+version = "0.0.1"
+description = "A tool to automatically softlink multiple files to different folders on the filesystem. Especially useful for ML model weights."
+authors = ["Roman Baron <1299323+RomansWorks@users.noreply.github.com>"]
+license = "Apache 2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+pyyaml = "^6.0.1"
+watchdog = "^3.0.0"
+
+# Dev deps
+
+[tool.poetry.dev-dependencies]
+pyinstaller = "^6.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
